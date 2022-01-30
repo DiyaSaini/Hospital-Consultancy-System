@@ -292,8 +292,6 @@ do
     printf("\n\t\t\tContact no: ");
     scanf("%s",p.Contact_no);
     if(strlen(p.Contact_no)>10||strlen(p.Contact_no)!=10)
-
-Diya, [1/26/2022 11:34 PM]
 {
   printf("\n\t Sorry :( Invalid. Contact no. must contain 10 numbers. Enter again :)");
   goto D;
@@ -457,7 +455,6 @@ void func_list()
    printf("%s",p.Email);
    gotoxy(88,row);
 
-Diya, [1/26/2022 11:34 PM]
 printf("%s",p.Problem);
    gotoxy(98,row);
    printf("%s",p.Doctor);
@@ -618,7 +615,7 @@ void Edit_rec(void)
     p.Problem[0]=toupper(p.Problem[0]);
        gotoxy(12,38);
 
-Diya, [1/26/2022 11:34 PM]
+
 printf("Enter Doctor: ");
        scanf("%s",p.Doctor);
        p.Doctor[0]=toupper(p.Doctor[0]);
