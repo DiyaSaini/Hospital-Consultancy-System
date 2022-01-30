@@ -1,5 +1,4 @@
 # Hospital-Consultancy-System
-Diya, [1/26/2022 11:34 PM]
 //HEADER FILES
 #include<stdio.h>//Use for standard I/O Operation
 #include<windows.h>
@@ -128,7 +127,6 @@ void ex_it(void)//function to exit
  printf("\n\n\n\n\n\t\t\tTHANK YOU FOR VISITING :)");
  getch();//holds screen
 
-Diya, [1/26/2022 11:34 PM]
 }
 /* ********************************************* Login Screen ***************************************** */
 void LoginScreen(void)//function for login screen
